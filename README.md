@@ -1,2 +1,2 @@
 # Mobile-Application-Development
-Course work related to my Sem-7 MAD lab
+Course work related to my SEMESTER-7 MAD lab
