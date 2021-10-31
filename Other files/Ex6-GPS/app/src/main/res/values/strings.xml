@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GPS</string>
+    <string name="addressLine">Address</string>
+    <string name="action_settings">Action</string>
+    <string name="GPSAlertDialogMessage">Alert!</string>
+    <string name="GPSAlertDialogTitle">Alert!</string>
+    <string name="cancel">Cancel</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="postalCode">Postal Code</string>
+</resources>

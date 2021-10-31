@@ -1,0 +1,177 @@
+\documentclass[12pt,letterpaper]{article}
+%\usepackage[utf8]{inputenc}
+\UseRawInputEncoding
+\usepackage[english]{babel}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+%For syntax highlighting
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{1,1,1}
+
+%%Sets different parameters
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=4
+}
+\lstset{style=mystyle}
+
+\title{\textbf{Department of Computer Science and Engineering}}
+\author{\textbf{Shivanirudh S G, 185001146, Semester VII }}
+
+\date{30 August 2021}
+
+\begin{document}
+\maketitle
+\hrule
+\section*{\center{UCS1711 - Mobile Application Development Lab}}
+\hrule 
+\bigskip\bigskip
+
+%Assignment name
+\subsection*{\center{\textbf{Exercise 4: Android Application Development using Database}}}
+
+%Objective
+\subsection*{\flushleft{Objective:}}
+\begin{flushleft}
+    In main activity have the following buttons: Create, Insert, Update, Delete, Retrieve. Perform appropriate operations for each.
+\end{flushleft}
+
+%Code
+\subsection*{\flushleft{Code:}}
+\subsubsection*{\flushleft{Main Activity:}}
+\textbf{Design:}
+\begin{flushleft}
+\lstinputlisting[language = XML]{./app/src/main/res/layout/activity_main.xml}
+\end{flushleft}
+\textbf{Behaviour:}
+\begin{flushleft}
+\lstinputlisting[language = JAVA]{./app/src/main/java/com/example/database/MainActivity.java}
+\end{flushleft}
+
+\newpage
+\subsubsection*{\flushleft{Insert Activity:}}
+\textbf{Design:}
+\begin{flushleft}
+\lstinputlisting[language = XML]{./app/src/main/res/layout/activity_insert.xml}
+\end{flushleft}
+\textbf{Behaviour:}
+\begin{flushleft}
+\lstinputlisting[language = JAVA]{./app/src/main/java/com/example/database/InsertActivity.java}
+\end{flushleft}
+
+\newpage
+\subsubsection*{\flushleft{Update Activity:}}
+\textbf{Design:}
+\begin{flushleft}
+\lstinputlisting[language = XML]{./app/src/main/res/layout/activity_update.xml}
+\end{flushleft}
+\textbf{Behaviour:}
+\begin{flushleft}
+\lstinputlisting[language = JAVA]{./app/src/main/java/com/example/database/UpdateActivity.java}
+\end{flushleft}
+
+\newpage
+\subsubsection*{\flushleft{Delete Activity:}}
+\textbf{Design:}
+\begin{flushleft}
+\lstinputlisting[language = XML]{./app/src/main/res/layout/activity_delete.xml}
+\end{flushleft}
+\textbf{Behaviour:}
+\begin{flushleft}
+\lstinputlisting[language = JAVA]{./app/src/main/java/com/example/database/DeleteActivity.java}
+\end{flushleft}
+
+\newpage
+\subsubsection*{\flushleft{Retrieve Activity:}}
+\textbf{Design:}
+\begin{flushleft}
+\lstinputlisting[language = XML]{./app/src/main/res/layout/activity_retrieve.xml}
+\end{flushleft}
+\textbf{Behaviour:}
+\begin{flushleft}
+\lstinputlisting[language = JAVA]{./app/src/main/java/com/example/database/RetrieveActivity.java}
+\end{flushleft}
+
+\newpage
+\subsection*{\flushleft{Output:}}
+\subsubsection*{\flushleft{Main Activity:}}
+\begin{figure}[h]
+    \centering
+    \includegraphics[height=14cm, keepaspectratio]{Outputs/OP1.jpeg}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[height=14cm, keepaspectratio]{Outputs/OP2.jpeg}
+\end{figure}
+
+\newpage
+\subsubsection*{\flushleft{Insert Activity:}}
+\begin{figure}[h]
+    \centering
+    \includegraphics[height=14cm, keepaspectratio]{Outputs/OP3.jpeg}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[height=14cm, keepaspectratio]{Outputs/OP4.jpeg}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[height=14cm, keepaspectratio]{Outputs/OP5.jpeg}
+\end{figure}
+
+\newpage
+\subsubsection*{\flushleft{Update Activity:}}
+\begin{figure}[h]
+    \centering
+    \includegraphics[height=14cm, keepaspectratio]{Outputs/OP6.jpeg}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[height=14cm, keepaspectratio]{Outputs/OP7.jpeg}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[height=14cm, keepaspectratio]{Outputs/OP8.jpeg}
+\end{figure}
+
+\newpage
+\subsubsection*{\flushleft{Delete Activity:}}
+\begin{figure}[h]
+    \centering
+    \includegraphics[height=14cm, keepaspectratio]{Outputs/OP9.jpeg}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[height=14cm, keepaspectratio]{Outputs/OP10.jpeg}
+\end{figure}
+
+\newpage
+\subsubsection*{\flushleft{Retrieve Activity:}}
+\begin{figure}[h]
+    \centering
+    \includegraphics[height=14cm, keepaspectratio]{Outputs/OP11.jpeg}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[height=14cm, keepaspectratio]{Outputs/OP12.jpeg}
+\end{figure}
+
+\end{document}

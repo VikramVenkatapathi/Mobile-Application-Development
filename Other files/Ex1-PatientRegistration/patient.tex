@@ -1,0 +1,93 @@
+\documentclass[12pt,letterpaper]{article}
+%\usepackage[utf8]{inputenc}
+\UseRawInputEncoding
+\usepackage[english]{babel}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+%For syntax highlighting
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{1,1,1}
+
+%%Sets different parameters
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=4
+}
+\lstset{style=mystyle}
+
+\title{\textbf{Department of Computer Science and Engineering}}
+\author{\textbf{Shivanirudh S G, 185001146, Semester VII }}
+
+\date{19 July 2021}
+
+\begin{document}
+\maketitle
+\hrule
+\section*{\center{UCS1711 - Mobile Application Development Lab}}
+\hrule 
+\bigskip\bigskip
+
+%Assignment name
+\subsection*{\center{\textbf{Exercise 1: Application using GUI components, Font and Colours}}}
+
+%Objective
+\subsection*{\flushleft{Objective:}}
+\begin{flushleft}
+    Generate a registration form for a hospital to register new patient details.    
+\end{flushleft}
+
+%Code
+\subsection*{\flushleft{Code:}}
+\subsubsection*{\flushleft{Main Activity:}}
+\textbf{Design:}
+\begin{flushleft}
+\lstinputlisting[language = XML]{./app/src/main/res/layout/activity_main.xml}
+\end{flushleft}
+\textbf{Behaviour:}
+\begin{flushleft}
+\lstinputlisting[language = JAVA]{./app/src/main/java/com/example/patientregistration/MainActivity.java}
+\end{flushleft}
+
+
+\subsubsection*{\flushleft{Display Details Activity:}}
+\textbf{Design:}
+\begin{flushleft}
+\lstinputlisting[language = XML]{./app/src/main/res/layout/activity_display_details2.xml}
+\end{flushleft}
+\textbf{Behaviour:}
+\begin{flushleft}
+\lstinputlisting[language = JAVA]{./app/src/main/java/com/example/patientregistration/DisplayDetailsActivity.java}
+\end{flushleft}
+
+\subsection*{\flushleft{Output:}}
+\begin{figure}[h]
+    \centering
+    \includegraphics[height=14cm, keepaspectratio]{Outputs/OP1.png}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[height=14cm, keepaspectratio]{Outputs/OP3.png}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[height=14cm, keepaspectratio]{Outputs/OP2.png}
+\end{figure}
+\end{document}
