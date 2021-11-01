@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ex5 Multithreading</string>
+    <string name="look_down">Look Down</string>
+    <string name="next_activity">Next Activity</string>
+    <string name="start">Start</string>
+    <string name="seconds">Seconds</string>
+    <string name="sleep">Sleep</string>
+    <string name="sleep_for">Time to sleep: </string>
+</resources>

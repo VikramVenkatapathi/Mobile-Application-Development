@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tracking</string>
+    <string name="geo_location">Geo-location</string>
+    <string name="find_latitude_and_longitude">Find latitude and longitude</string>
+    <string name="location_tracking_application">Location Tracking Application</string>
+    <string name="latitude">Latitude :</string>
+    <string name="_0">0</string>
+    <string name="longitude">Longitude :</string>
+</resources>
