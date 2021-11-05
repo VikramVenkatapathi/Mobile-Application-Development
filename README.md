@@ -1,6 +1,5 @@
 # Mobile-Application-Development
-Course work related to my SEMESTER-7 MAD lab.
-<activity
+Course work related to my SEMESTER-7 MAD lab.<activity
     android:name=".<TO_ACTIVITY>"
     android:parentActivityName=".MainActivity">
     <!-- The meta-data tag is required if you support API level 15 and lower -->
